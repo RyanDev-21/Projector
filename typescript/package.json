@@ -1,0 +1,19 @@
+{
+    "name": "playground",
+    "module": "index.ts",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "bun run ./src/index.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "@types/command-line-args": "^5.2.3",
+        "command-line-args": "^6.0.2"
+    }
+}
