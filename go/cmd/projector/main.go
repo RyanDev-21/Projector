@@ -11,5 +11,11 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	config, err := projector.NewConfig(opts)
+	if err != nil {
+		panic(err)
+	}
+
 	fmt.Printf("opts:%+v", opts)
+	fmt.Printf("config:%+v", config)
 }

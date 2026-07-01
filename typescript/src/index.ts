@@ -1,3 +1,7 @@
 import getOpts from "./opts";
+import config from "./config";
 
-console.log(getOpts());
+let opts = getOpts();
+console.log(opts);
+console.log(config(opts));
+
